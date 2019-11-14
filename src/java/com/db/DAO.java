@@ -21,7 +21,7 @@ static Connection connection;
     {
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/smail", "root", "root");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/smail", "root", "");
         } catch (Exception ex) {
              ex.printStackTrace();
             
